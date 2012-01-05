@@ -1,0 +1,6 @@
+The program takes a graph and enables the user to either find the shortest distance between two nodes or 
+find the minimum spanning tree of the graph. It does the first using Dijkstra's algorithm and the second
+using Kruskal's algorithm.
+
+The graph must be in a file and have the following format:
+

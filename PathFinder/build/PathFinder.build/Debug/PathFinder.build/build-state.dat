@@ -1,0 +1,234 @@
+TPathFinder
+v7
+r0
+t347495434.231947
+cCheck dependencies
+cProcessInfoPlistFile ./PathFinder.app/Contents/Info.plist Info.plist
+cCompileC build/PathFinder.build/Debug/PathFinder.build/Objects-normal/i386/pathfinder.o /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./PathFinder.app/Contents/MacOS/PathFinder normal i386
+cTouch ./PathFinder.app
+
+N./PathFinder.app
+t1325802634
+s102
+
+N./PathFinder.app/Contents/Info.plist
+t1325620565
+s1115
+
+N./PathFinder.app/Contents/MacOS/PathFinder
+t1325802634
+s179868
+
+N./PathFinder.app/Contents/PkgInfo
+t1325620565
+s8
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004B5FA877000000000000A5E0
+t1264560247
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004E5295740000000000785970
+t1314035060
+s7887216
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/build/PathFinder.build/Debug/PathFinder.build/Objects-normal/i386/PathFinder.LinkFileList
+c000000004F035D550000000000000091
+t1325620565
+s145
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/build/PathFinder.build/Debug/PathFinder.build/Objects-normal/i386/pathfinder.o
+t1325802632
+s238816
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/build/PathFinder.build/Debug/PathFinder.build/Objects-normal/i386/pathfinderextra.o
+t2
+s0
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/bst.h
+c000000004F035C840000000000004903
+t1325620356
+s18691
+i"cmpfn.h"
+i"vector.h"
+i<cstdlib>
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/cmpfn.h
+c000000004F035C8400000000000002C5
+t1325620356
+s709
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/disallowcopy.h
+c000000004F035C8400000000000004E7
+t1325620356
+s1255
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/extgraph.h
+c000000004F035C840000000000003EF7
+t1325620356
+s16119
+i"genlib.h"
+i"graphics.h"
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/genlib.h
+c000000004F035C840000000000000455
+t1325620356
+s1109
+i<string>
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/gnomesort.h
+c000000004F03B0B00000000000000129
+t1325641904
+s297
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/graphics.h
+c000000004F035C8400000000000012F6
+t1325620356
+s4854
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/libcs106.a
+c000000004F035C84000000000004C730
+t1325620356
+s313136
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/random.h
+c000000004F035C840000000000000684
+t1325620356
+s1668
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/set.h
+c000000004F035C84000000000000342A
+t1325620356
+s13354
+i"cmpfn.h"
+i"bst.h"
+i"vector.h"
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/simpio.h
+c000000004F035C840000000000000668
+t1325620356
+s1640
+i"genlib.h"
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/stack.h
+c000000004F035C8400000000000014E0
+t1325620356
+s5344
+i"vector.h"
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/strutils.h
+c000000004F035C8400000000000008A6
+t1325620356
+s2214
+i"genlib.h"
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/vector.h
+c000000004F035C840000000000002977
+t1325620356
+s10615
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp
+c000000004F0630750000000000005AE0
+t1325805685
+s23264
+i"genlib.h"
+i"extgraph.h"
+i<iostream>
+i<cmath>
+i"simpio.h"
+i<fstream>
+i"strutils.h"
+i"set.h"
+i"stack.h"
+i"vector.h"
+i"random.h"
+i"pqueue.h"
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinderextra.cpp
+c000000004F06306F000000000000071D
+t1325805679
+s1821
+i"pathfinderextra.h"
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinderextra.h
+c000000004F0630660000000000000095
+t1325805670
+s149
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pqueue.h
+c000000004F02A414000000000000189E
+t1325573140
+s6302
+i"genlib.h"
+i"vector.h"
+i"disallowcopy.h"
+i"cmpfn.h"
+i<iostream>
+
+NInfo.plist
+c000000004F035C840000000000000326
+t1325620356
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies347495430#347495430#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/PathFinder.build/Debug/PathFinder.build/Objects-normal/i386/pathfinder.o /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s347495430.416693
+e347495432.100149
+r1
+xCompileC
+xbuild/PathFinder.build/Debug/PathFinder.build/Objects-normal/i386/pathfinder.o
+x/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp:686:1: warning: "/*" within comment
+o/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp: In function 'cityT GetNameMatch(std::string, Set<cityT>&)':
+o/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp:289: warning: control reaches end of non-void function
+o/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp: In function 'coordT GetCoord(std::string, Set<cityT>&)':
+o/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp:234: warning: control reaches end of non-void function
+lSLF07#2@88"Compile /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp347495430#347495432#0(670"/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp:686:1: warning: "/*" within comment/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp: In function 'cityT GetNameMatch(std::string, Set<cityT>&)':/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp:289: warning: control reaches end of non-void function/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp: In function 'coordT GetCoord(std::string, Set<cityT>&)':/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp:234: warning: control reaches end of non-void function3(22@19""/*" within comment347495431#0#117#0(6@80"/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp347495429#686#0#686#0#0"0(22@40"Control reaches end of non-void function347495431#259#136#0(6@80"/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp347495429#289#0#289#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function347495431#534#136#0(6@80"/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp347495429#234#0#234#0#40"control reaches end of non-void function0(0#0#80"/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp7579395863591677952#1001"    cd /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/build/PathFinder.build/Debug/PathFinder.build/PathFinder.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/build/PathFinder.build/Debug/PathFinder.build/DerivedSources/i386 -I/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/build/PathFinder.build/Debug/PathFinder.build/DerivedSources -fstack-check -c /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp -o /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/build/PathFinder.build/Debug/PathFinder.build/Objects-normal/i386/pathfinder.o0#
+
+CCompileC build/PathFinder.build/Debug/PathFinder.build/Objects-normal/i386/pathfinderextra.o /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinderextra.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CLd ./PathFinder.app/Contents/MacOS/PathFinder normal i386
+s347495432.100306
+e347495434.208649
+r1
+xLd
+x./PathFinder.app/Contents/MacOS/PathFinder
+xnormal
+xi386
+lSLF07#2@47"Link ./PathFinder.app/Contents/MacOS/PathFinder347495432#347495434#0(0"0(0#0#0"27303403456495732#481"    cd /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder    /Developer/usr/bin/g++-4.2 -arch i386 -L. -Lcs106 -L/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106 -F. -filelist /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/build/PathFinder.build/Debug/PathFinder.build/Objects-normal/i386/PathFinder.LinkFileList -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./PathFinder.app/Contents/MacOS/PathFinder0#
+
+CProcessInfoPlistFile ./PathFinder.app/Contents/Info.plist Info.plist
+s347313365.677806
+e347313365.709975
+r1
+xProcessInfoPlistFile
+x./PathFinder.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist347313365#347313365#0(0"0(0#0#76"/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/Info.plist30962560973865076#237"    cd /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder    builtin-infoPlistUtility Info.plist -genpkginfo ./PathFinder.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./PathFinder.app/Contents/Info.plist0#
+
+CTouch ./PathFinder.app
+s347495434.208775
+e347495434.231880
+r1
+xTouch
+x./PathFinder.app
+lSLF07#2@22"Touch ./PathFinder.app347495434#347495434#0(0"0(0#0#0"8603306976#112"    cd /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder    /usr/bin/touch -c ./PathFinder.app0#
+

@@ -1,0 +1,131 @@
+TPathFinder
+v7
+r0
+t347313368.155646
+cCheck dependencies
+cProcessInfoPlistFile ./PathFinder.app/Contents/Info.plist Info.plist
+cCompileC build/PathFinder.build/Debug/PathFinder.build/Objects-normal/i386/pathfinder.o /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./PathFinder.app/Contents/MacOS/PathFinder normal i386
+cTouch ./PathFinder.app
+
+N./PathFinder.app
+t1325620568
+s102
+
+N./PathFinder.app/Contents/Info.plist
+t1325620565
+s1115
+
+N./PathFinder.app/Contents/MacOS/PathFinder
+t1325620568
+s90632
+
+N./PathFinder.app/Contents/PkgInfo
+t1325620565
+s8
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004B5FA877000000000000A5E0
+t1264560247
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004E5295740000000000785970
+t1314035060
+s7887216
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/build/PathFinder.build/Debug/PathFinder.build/Objects-normal/i386/PathFinder.LinkFileList
+c000000004F035D550000000000000091
+t1325620565
+s145
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/build/PathFinder.build/Debug/PathFinder.build/Objects-normal/i386/pathfinder.o
+t1325620566
+s72060
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/extgraph.h
+c000000004F035C840000000000003EF7
+t1325620356
+s16119
+i"genlib.h"
+i"graphics.h"
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/genlib.h
+c000000004F035C840000000000000455
+t1325620356
+s1109
+i<string>
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/graphics.h
+c000000004F035C8400000000000012F6
+t1325620356
+s4854
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106/libcs106.a
+c000000004F035C84000000000004C730
+t1325620356
+s313136
+
+N/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp
+c000000004F035D540000000000000C48
+t1325620564
+s3144
+i"genlib.h"
+i"extgraph.h"
+i<iostream>
+i<cmath>
+
+NInfo.plist
+c000000004F035C840000000000000326
+t1325620356
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies347313365#347313365#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/PathFinder.build/Debug/PathFinder.build/Objects-normal/i386/pathfinder.o /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s347313365.710108
+e347313366.454589
+r1
+xCompileC
+xbuild/PathFinder.build/Debug/PathFinder.build/Objects-normal/i386/pathfinder.o
+x/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp347313365#347313366#0(0"0(0#0#80"/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp8608888320#1001"    cd /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/build/PathFinder.build/Debug/PathFinder.build/PathFinder.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/build/PathFinder.build/Debug/PathFinder.build/DerivedSources/i386 -I/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/build/PathFinder.build/Debug/PathFinder.build/DerivedSources -fstack-check -c /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/pathfinder.cpp -o /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/build/PathFinder.build/Debug/PathFinder.build/Objects-normal/i386/pathfinder.o0#
+
+CLd ./PathFinder.app/Contents/MacOS/PathFinder normal i386
+s347313366.454673
+e347313368.116285
+r1
+xLd
+x./PathFinder.app/Contents/MacOS/PathFinder
+xnormal
+xi386
+lSLF07#2@47"Link ./PathFinder.app/Contents/MacOS/PathFinder347313366#347313368#0(0"0(0#0#0"8608077984#481"    cd /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder    /Developer/usr/bin/g++-4.2 -arch i386 -L. -Lcs106 -L/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/cs106 -F. -filelist /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/build/PathFinder.build/Debug/PathFinder.build/Objects-normal/i386/PathFinder.LinkFileList -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./PathFinder.app/Contents/MacOS/PathFinder0#
+
+CProcessInfoPlistFile ./PathFinder.app/Contents/Info.plist Info.plist
+s347313365.677806
+e347313365.709975
+r1
+xProcessInfoPlistFile
+x./PathFinder.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist347313365#347313365#0(0"0(0#0#76"/Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder/Info.plist30962560973865076#237"    cd /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder    builtin-infoPlistUtility Info.plist -genpkginfo ./PathFinder.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./PathFinder.app/Contents/Info.plist0#
+
+CTouch ./PathFinder.app
+s347313368.116459
+e347313368.155536
+r1
+xTouch
+x./PathFinder.app
+lSLF07#2@22"Touch ./PathFinder.app347313368#347313368#0(0"0(0#0#0"8608521728#112"    cd /Users/gregcohan/Desktop/ProgrammingAbstractions/XCode/PathFinder    /usr/bin/touch -c ./PathFinder.app0#
+

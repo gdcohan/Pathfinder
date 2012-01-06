@@ -1,6 +1,37 @@
+OVERVIEW:
+
 The program takes a graph and enables the user to either find the shortest distance between two nodes or 
 find the minimum spanning tree of the graph. It does the first using Dijkstra's algorithm and the second
 using Kruskal's algorithm.
 
 The graph must be in a file and have the following format:
 
+USA.bmp
+NODES
+WashingtonDC 5.71 2.25
+Minneapolis 3.76 2.93
+SanFrancisco 0.278 2.31
+Dallas 3.31 1.04
+KansasCity 3.56 2.08
+ARCS
+Minneapolis SanFrancisco 1777
+Minneapolis Dallas 935
+Minneapolis WashingtonDC 1600
+SanFrancisco WashingtonDC 2200
+Dallas SanFrancisco 1540 
+Dallas WashingtonDC 1319
+Minneapolis KansasCity 380
+
+
+In this format, the first line is an image, followed by "NODES", the cities, "ARCS", and the connetions.
+
+This projects was done as an assignment for a class called Stanford 106B that I found the material for online.
+As such, it uses a few classes and methods provided by the class. These classes are mainly container classes that
+model sets, vectors, stacks, etc. They also provided some built in graphics support. All of the support files
+are in the project folder.
+
+Known Bugs:
+1) Currently, the program is set up to run until the user decides to quit. However, if you try to load a second
+graph file without restarting the program, the image of the graph does not appear correctly in the graphics window.
+
+2) Currently, the program can only parse graph files where the distance between two nodes (arcs) is an integer.
